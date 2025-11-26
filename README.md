@@ -25,7 +25,7 @@ This is the proposed HeartFormer architecture.
 * PyTorch 1.7.0
 * CUDA 11.0
 
-## Prerequisite
+## 🔧 Prerequisite
 
 Compile for cd and emd:
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 - For convenience, we also include **10 test samples** in the supplementary material for evaluation.
 
 
-## Training
+## 💻 Training
 
 In order to train the model, please use script:
 
@@ -66,11 +66,11 @@ In order to test the model, please use follow script:
 python main_HeartFormer.py --test --ckpts ./checkpoints/ckpt-best.pth --config ./cfgs/models/HeartFormer.yaml --exp_name <path of output path>
 ```
 
-## Model
+## 🏰 Model
 
 The well-trained model for testing is in `checkpoint/`.
 
-## Results
+## 🚩 Results
 
 ### Qualitative Result
 
