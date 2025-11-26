@@ -3,12 +3,13 @@
 
 
 
-
+## Visualizing 4D cardiac point cloud
 | Case1                                           | Case2                                            |
 |-------------------------------------------------|--------------------------------------------------|
 | <img src="images/cardiac_demo.gif" width="200"> | <img src="images/cardiac_demo1.gif" width="200"> |
 
-
+## Visualizing completion in training progress
+<img src="images/Completion_training_progress.gif" width="300">
 
 ## Introduction
 ![HeartFormer](images/HeartFormer.png)
