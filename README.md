@@ -3,12 +3,12 @@
 
 
 
-## Visualizing 4D cardiac point cloud
+## 🤹‍♂️ Visualizing 4D cardiac point cloud
 | Case1                                           | Case2                                            |
 |-------------------------------------------------|--------------------------------------------------|
 | <img src="images/cardiac_demo.gif" width="300"> | <img src="images/cardiac_demo1.gif" width="300"> |
 
-## Visualizing completion in training progress
+## 🤹‍♂️ Visualizing completion in training progress
 <img src="images/Completion_training_progress.gif" width="500">
 
 ## Introduction
@@ -18,7 +18,7 @@
 
 This is the proposed HeartFormer architecture.
 
-## Environment
+## 🛠️ Environment
 
 * Ubuntu 24.04.1 LTS
 * Python 3.7.9
