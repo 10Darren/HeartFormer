@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="HeartFormer: Semantic-Aware Dual-Structure Transformers for 3D Four-Chamber Cardiac Point Cloud Reconstruction">
+    <meta name="keywords" content="Point Cloud Completion, Foundation models, Dataset">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PCDreamer: Point Cloud Completion Through Multi-view Diffusion Priors</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/bulma.min.css">
+    <link rel="stylesheet" href="./resources/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./resources/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./resources/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="icon" href="./resources/imgs/icon1.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./resources/js/fontawesome.all.min.js"></script>
+    <script src="./resources/js/bulma-carousel.min.js"></script>
+    <script src="./resources/js/bulma-slider.min.js"></script>
+    <script src="./resources/js/index.js"></script>
+</head>
+
+<body>
+
+    <!-- Title, authors -->
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">PCDreamer: Point Cloud Completion Through Multi-view Diffusion Priors</h1>
+                        <h3 class="title is-4" style="color: red">CVPR 2025</h3>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><a href="https://gsw-d.github.io/gswei.github.io/" target="_blank">Guangshun Wei</a><sup>1</sup>,</span>
+                            <span class="author-block">Yuan Feng<sup>1</sup>,</span>
+                            <span class="author-block">Long Ma<sup>1</sup>,</span>
+                            <span class="author-block">Chen Wang<sup>1</sup>,</span>
+                            <span class="author-block">Yuanfeng Zhou<sup>1</sup>,</span>
+                            <span class="author-block"><a href="https://enigma-li.github.io/" target="_blank">Changjian Li</a><sup>2</sup></span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>1</sup>Shandong University,</span>
+                            <span class="author-block"><sup>2</sup>University of Edinburgh</span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/pdf/2411.19036" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                                        <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                                        <span>Paper</span>
+                                    </a>
+                                </span>
+
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2411.19036" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                                        <span class="icon"><i class="ai ai-arxiv"></i></span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+
+                                <span class="link-block">
+                                    <a href="https://www.youtube.com/watch?v=os7IlKmoDqY" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                                        <span class="icon"><i class="fab fa-youtube"></i></span>
+                                        <span>Video</span>
+                                    </a>
+                                </span>
+
+                                <span class="link-block">
+                                    <a href="https://github.com/GSW-D/PCDreamerCode" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon"><i class="fab fa-github"></i></span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaser -->
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <img src="./resources/imgs/teaser1.jpg" class="teaser" alt="Teaser Image"/>
+                <h3 class="subtitle has-text-justified">
+                    Given a partial point cloud input (a)... our approach (e) faithfully produces the desired shape compared with the ground truth (f).
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abstract -->
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            This paper presents PCDreamer, a novel method for point cloud completion...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Method -->
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column is-full-width">
+                    <h2 class="title is-3 has-text-centered">Method</h2>
+                    <img src="./resources/imgs/pipeline.jpg" alt="Method Image"/>
+                    <div class="content has-text-justified">
+                        <p>
+                            Overview of PCDreamer. Given an input partial point cloud...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results -->
+    <section class="section">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column is-full-width">
+                    <h2 class="title is-3 has-text-centered">Visual Results (PCN Dataset)</h2>
+
+                    <img src="./resources/imgs/com_pcn.jpg" alt="PCN Results" style="margin-bottom:20px;"/>
+                    <p class="content has-text-justified" style="margin-bottom:50px;">
+                        Figure 2. Visual comparisons on the PCN dataset.
+                    </p>
+
+                    <img src="./resources/imgs/pcn_supp.jpg" alt="PCN Supplement" style="margin-bottom:20px;"/>
+                    <p class="content has-text-justified">
+                        Figure 3. Visual results as well as multi-view depth images on the PCN dataset.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citation -->
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+<pre><code>@article{wei2024pcdreamerpointcloudcompletion,
+  title={PCDreamer: Point Cloud Completion Through Multi-view Diffusion Priors},
+  author={Guangshun Wei, Yuan Feng, Long Ma, Chen Wang, Yuanfeng Zhou, Changjian Li},
+  year={2025},
+  journal={CVPR},
+}
+</code></pre>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <h2 class="title">Acknowledgement</h2>
+                        <p>
+                            We borrow the source code of this website from  
+                            <a href="https://nerfies.github.io/" target="_blank">Nerfies</a>. Last update: June 2024.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
